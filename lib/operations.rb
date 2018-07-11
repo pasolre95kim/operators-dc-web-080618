@@ -5,8 +5,8 @@ def unsafe?(speed)
 elsif speed < 40
 		true
 
-else speed.between(40, 60)
-	false	
+else speed.between?(40, 60)
+	false
 	end
 end
 
